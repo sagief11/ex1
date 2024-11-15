@@ -31,6 +31,7 @@ int main() {
     Now make sure it's "off" (equal to 0)
     Print the output
     */
+
     printf("Please enter a number:\n");
     scanf("%d", &num);
     printf("Please enter a position:\n");
@@ -51,7 +52,7 @@ int main() {
     scanf("%d", &num);
     printf("Please enter a position:\n");
     scanf("%d", &position);
-    temp = temp = num ^ (1 << position);
+    temp = num ^ (1 << position);
     printf("Number with bit %d toggled: %d", position, temp);
     // Finish task 3
 
