@@ -19,7 +19,7 @@ int main() {
     printf("Please enter a position:\n");
     scanf("%d", &position);
     temp = (num >> position) & 1;
-    printf("The bit in position %d of number of %d is: %d", position, num, temp);
+    printf("The bit in position %d of number  %d is: %d", position, num, temp);
     // Finish task 1
 
     // // Task 2 - Set bit
@@ -73,13 +73,13 @@ int main() {
     Scan two integers in octal base
     sum them up and print the result in hexadecimal base
     Print only 4 bits, in positions: 3,5,7,11 in the result. */
-    printf("Please enter the first number (octal)\n");
+    printf("Please enter the first number (octal):\n");
     scanf("%o", &temp);
-    printf("Please enter the second number (octal)\n");
+    printf("Please enter the second number (octal):\n");
     scanf("%o", &num);
     temp += num;
     printf("The sum in hexadecimal: %X\n", temp);
-    printf("The 3, 5, 7, 11 bits are: %d%d%d%d\n", temp >> 3 & 1, temp >> 5 & 1, temp >> 7 & 1, temp >> 11 & 1);
+    printf("The 3,5,7,11 bits are: %d%d%d%d\n", temp >> 3 & 1, temp >> 5 & 1, temp >> 7 & 1, temp >> 11 & 1);
 
     printf("Bye!\n");
     return 0;
