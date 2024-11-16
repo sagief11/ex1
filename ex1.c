@@ -31,7 +31,6 @@ int main() {
     Now make sure it's "off" (equal to 0)
     Print the output
     */
-
     printf("Please enter a number:\n");
     scanf("%d", &num);
     printf("Please enter a position:\n");
